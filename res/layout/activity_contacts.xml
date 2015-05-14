@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/contactsbck"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="android.project.followme.ContactsActivity" >
+    
+    <GridView
+        android:id="@+id/gvContacts"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:numColumns="2" >
+    </GridView>
+
+    <Button
+        android:id="@+id/bContactsDone"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tbContactsPhoneNum"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp" />
+
+    <EditText
+        android:id="@+id/tbContactsPhoneNum"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/gvContacts"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:alpha="0.7"
+        android:background="@drawable/inputfield"
+        android:drawableLeft="@drawable/telicon"
+        android:ems="10"
+        android:hint="    Phone"
+        android:inputType="phone"
+        android:paddingLeft="10dp"
+        android:textSize="20sp" >
+
+        <requestFocus />
+    </EditText>
+
+</RelativeLayout>

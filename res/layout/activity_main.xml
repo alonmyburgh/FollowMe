@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbck"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="android.project.followme.MainActivity" >
+    
+    <Button
+        android:id="@+id/bShareLocation"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/ivStart"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/startsharebtn" />
+    
+    <ImageView
+           android:id="@+id/ivStart"
+           android:layout_width="220dp"
+           android:layout_height="100dp"
+           android:layout_above="@+id/bContacts"
+           android:layout_alignLeft="@+id/btnfollow"
+           android:layout_marginBottom="14dp"
+           android:alpha="0.5"
+           android:src="@drawable/startbck" />
+
+       <ImageView
+           android:id="@+id/ivShout"
+           android:layout_width="20dp"
+           android:layout_height="17dp"
+           android:layout_above="@+id/btnSosStart"
+           android:layout_centerHorizontal="true"
+           android:background="@drawable/shoutani" />
+       
+       <Button
+           android:id="@+id/btnSosStart"
+           android:layout_width="200dp"
+           android:layout_height="40dp"
+           android:layout_alignBottom="@+id/ivStart"
+           android:layout_centerHorizontal="true"
+           android:layout_marginBottom="16dp"
+           android:background="@drawable/startbtn" />
+       
+       <Button
+           android:id="@+id/bContacts"
+           android:layout_width="220dp"
+           android:layout_height="40dp"
+           android:layout_above="@+id/btnSettings"
+           android:layout_alignLeft="@+id/ivStart"
+           android:layout_marginBottom="15dp"
+           android:background="@drawable/addcontactbtn" />
+       
+       <Button
+           android:id="@+id/btnSettings"
+           android:layout_width="220dp"
+           android:layout_height="40dp"
+           android:layout_above="@+id/btnClose"
+           android:layout_alignLeft="@+id/bContacts"
+           android:background="@drawable/settingsbtn"
+           android:width="200dp" />
+
+       <Button
+           android:id="@+id/btnClose"
+           android:layout_width="90dp"
+           android:layout_height="40dp"
+           android:layout_alignParentBottom="true"
+           android:layout_alignParentRight="true"
+           android:layout_marginBottom="43dp"
+           android:layout_marginRight="14dp"
+           android:background="@drawable/exitbtn" />
+
+       <Button
+           android:id="@+id/btnfollow"
+           android:layout_width="220dp"
+           android:layout_height="40dp"
+           android:layout_above="@+id/bShareLocation"
+           android:layout_alignLeft="@+id/bShareLocation"
+           android:background="@drawable/followmebtn"
+           android:height="30dp" />
+
+</RelativeLayout>

@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sendrequestbck"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="android.project.followme.SendRequest" >
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/etPhone"
+        android:layout_below="@+id/ibContacts"
+        android:layout_marginTop="22dp"
+        android:alpha="0.5"
+        android:background="@drawable/readonlyfield"
+        android:drawableLeft="@drawable/username"
+        android:ems="10"
+        android:enabled="false"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etPhone"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/etName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:alpha="0.5"
+        android:background="@drawable/readonlyfield"
+        android:drawableLeft="@drawable/telicon"
+        android:ems="10"
+        android:enabled="false"
+        android:inputType="phone"
+        android:paddingLeft="10dp"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnSndRqst"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/etPhone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="61dp"
+        android:background="@drawable/sendrequestbtn" />
+
+    <Button
+        android:id="@+id/ibContacts"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/selectcontactbtn"
+        android:contentDescription="@string/ChooseContacts"
+        android:maxHeight="10dp"
+        android:maxWidth="10dp" />
+
+    <Button
+        android:id="@+id/btnbackreq"
+        android:layout_width="90dp"
+        android:layout_height="35dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/btnSndRqst"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/backbtn" />
+
+</RelativeLayout>

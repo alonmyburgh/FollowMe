@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FollowMe</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Login</string>
+
+    <!-- LOGIN PAGE -->
+    <string name="FollowMe">FollowMe</string>
+    <string name="please_login">Please Login:</string>
+    <string name="email">Email:</string>
+    <string name="password">Password:</string>
+    <string name="login">Login</string>
+    <string name="register"><u>Register</u></string>
+    <string name="forgot_password"><u>Forgot Password</u></string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_registration">RegistrationActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="empty_login_details">Login Details Cannot Be Empty</string>
+    <string name="wrong_username">No Username Found</string>
+    <string name="wrong_password">Password Does Not Match</string>
+    <string name="sms_sent">SMS Was Sent</string>
+    <string name="timeout">Server Timeout.\nPlease Check Connection</string>
+    <string name="empty_login">Login Cannot Be Empty</string>
+    <!-- MAIN PAGE -->
+    <string name="Follow">Follow</string>
+    <string name="Follow_Me">Follow Me</string>
+    <string name="SosStart">Start</string>
+    <string name="SosStop">Stop</string>
+    <string name="exit">Exit</string>
+    <string name="SOS">S.O.S</string>
+    <string name="Settings">S.O.S Settings</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_send_follow_request">SendFollowRequest</string>
+    <string name="title_activity_send_request">SendRequest</string>
+    <string name="TimeInterval">Time Interval</string>
+    <string name="add_contact">Add Contact</string>
+    <string name="choose_sos_first">Please Set a S.O.S Contact</string>
+    <string name="share_location_is_on">Switch Share Location To Off</string>
+    <string name="sos_is_on">Switch S.O.S To Off</string>
+    <!-- REGISTRATION PAGE -->
+    <string name="Name">Insert Name:</string>
+    <string name="mail">Insert E-mail:</string>
+    <string name="pass">Insert Password:</string>
+    <string name="Phone">Insert Phone Number:</string>
+    <string name="Register">Register</string>
+    <string name="Back">Back</string>
+    <string name="empty_registration_details">Registration Details Cannot Be Empty</string>
+    <string name="email_not_contain">E-Mail Address Should Contain @</string>
+    <string name="email_exists">E-Mail Already Exists</string>
+    <string name="registration_complete">Registration Complete</string>
+    <string name="no_spaces_allawed">Spaces Are Not Allawed In Registration Details</string>
+    <!-- FOLLOW REQ PAGE -->
+    <string name="empty_request_details">Name and Phone number Cannot Be Empty</string>
+    <string name="Min">Min</string>
+    <string name="Hour">Hour</string>
+    <string name="Days">Days</string>
+    <string name="DateFrom">From:</string>
+    <string name="DateTo">To:</string>
+    <string name="SendRequest">Send Request</string>
+    <string name="DeafaultInterval">15</string>
+    <string name="defaultinterval">15</string>
+    <string name="title_activity_follow_confirmation">FollowConfirmation</string>
+    <string name="senderName">xxxxxxxxx</string>
+    <string name="senderPhone">Phone number:</string>
+    <string name="sPhone">xxx-xxxxxx</string>
+    <string name="Request">Requested to follow you</string>
+    <string name="Approve">Approve</string>
+    <string name="Reject">Reject</string>
+    <string name="title_activity_contacts">ContactsActivity</string>
+    <!-- CONTACTS PAGE -->
+    <string name="contacts_done">Done</string>
+    <string name="contacts_insert">Insert</string>
+    <string name="enter_phonenum">Enter Phone Number</string>
+    <string name="incorrect_phone_num_format">Incorrect Phone Number Format</string>
+    <string name="contacts_added">The Contact Have Been Added</string>
+    <string name="contacts_not_added">The Contact Do Not Own An Account</string>
+    <string name="no_contacts_found">No Contacts Have Been Found</string>
+    <!-- FOLLOW -->
+    <string name="follow_search_desc">Choose From Contacts</string>
+    <!-- SETTINGS -->
+    <string name="settings_time_text">Time Interval:</string>
+    <string name="settings_mins">Minutes</string>
+    <string name="settings_name">Name:</string>
+    <string name="settings_phone">Phone Number:</string>
+    <string name="settings_contacts">Choose From Contacts</string>
+    <string name="settings_save">Save</string>
+    <string name="settings_back">Back</string>
+    <string name="settings_incorrect_time">Time Interval Is Incorrect</string>
+    <string name="settings_incorrect_name">Please Choose a Contact</string>
+    <string name="settings_no_settings_found">Please Choose Settings</string>
+    <string name="settings_save_success">Settings Were Saved Successfully</string>
+    <string name="settings_save_failed">Settings Saving Has Failed</string>
+    <string name="title_activity_view_map">ViewMap</string>
+    <string name="ViewButtonClose">Close</string>
+    <string name="no_last_update">The User Never Updated His Location</string>
+    <string name="ChooseContacts">Choose Contacts</string>
+    
+</resources>

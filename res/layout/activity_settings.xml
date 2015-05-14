@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/settingsbck"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="android.project.followme.Settings" >
+
+    <EditText
+        android:id="@+id/etSettingsTimeInterval"
+        android:layout_width="210dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/etSettingsName"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="76dp"
+        android:alpha="0.7"
+        android:background="@drawable/inputfield"
+        android:drawableLeft="@drawable/sandclockicon"
+        android:ems="10"
+        android:inputType="number"
+        android:paddingLeft="10dp"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etSettingsName"
+        android:layout_width="210dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/ibSettingsSearch"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:alpha="0.5"
+        android:background="@drawable/readonlyfield"
+        android:drawableLeft="@drawable/username"
+        android:ems="10"
+        android:enabled="false"
+        android:paddingLeft="10dp"
+        android:textColor="@android:color/holo_orange_light"
+        android:textColorLink="@android:color/holo_orange_light"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etSettingsPhone"
+        android:layout_width="210dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/etSettingsName"
+        android:layout_below="@+id/etSettingsName"
+        android:layout_marginTop="18dp"
+        android:alpha="0.5"
+        android:background="@drawable/readonlyfield"
+        android:drawableLeft="@drawable/telicon"
+        android:ems="10"
+        android:enabled="false"
+        android:inputType="phone"
+        android:paddingLeft="10dp"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/ibSettingsSearch"
+        android:layout_width="210dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/etSettingsTimeInterval"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/soscontactbtn" />
+
+    <Button
+        android:id="@+id/bSettingsSave"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/etSettingsPhone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/savebtn" />
+
+    <Button
+        android:id="@+id/bSettingsBack"
+        android:layout_width="90dp"
+        android:layout_height="35dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/bSettingsSave"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/backbtn" />
+
+</RelativeLayout>
